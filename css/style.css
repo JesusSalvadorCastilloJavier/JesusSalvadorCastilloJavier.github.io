@@ -531,3 +531,23 @@ footer .copyright
 
 
 }
+.image-container {
+    width: 250px;       /* Ancho fijo (ajusta según necesites) */
+    height: 250px;      /* Alto igual al ancho para que sea un círculo perfecto */
+    border-radius: 10%; /* Hace el círculo */
+    overflow: hidden;   /* Recorta lo que sobresalga */
+}
+
+.circular-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio sin distorsionarse */
+    transition: transform 0.3s ease; /* Suaviza el efecto de aumento */
+}
+
+.image-container:hover .circular-image {
+    transform: scale(1.2); /* Aumenta el tamaño de la imagen al 110% */
+    filter: brightness(1.1); /* Aumenta un poco el brillo */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Opcional: Sombra suave */
+}
+
