@@ -1,165 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport">
-	<title>Portafólio</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="css/animate.css">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portafolio profesional de Jesús Salvador Castillo Javier — Ingeniero en Sistemas, Maestro en Ciencias de la Computación, docente y desarrollador web y móvil.">
+<title>Jesús Salvador Castillo Javier · Portafolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@600;700;900&family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script>document.documentElement.classList.replace('no-js','js');</script>
 </head>
-<body style="background-color: rgb(236, 236, 236);">
-<header>
-	<div id="homeFullScreen">
-		<div class="header-text">
-			<h1>Mtro. Ing. Jesús Salvador Castillo Javier</h1>
-			<br>
-			<p>
-				Hola! soy Jesús, este es mi
-				<br />
-				sitio web con mi Portafólio, gracias por visitarlo.
-			</p>
-		</div><!-- End HeaderText -->
-	</div><!-- End homeFullScreen -->
-</header><!-- End Header -->
-<br>
-<!-- Feature -->
+<body>
 
-<section class="feature">
+<nav class="nav" id="siteNav">
+	<div class="nav-inner">
+		<a href="#home" class="nav-brand">JCJ<span class="nav-brand-dot">.</span></a>
+		<button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+			<span></span><span></span><span></span>
+		</button>
+		<ul class="nav-links" id="navLinks">
+			<li><a href="#journey">Trayectoria</a></li>
+			<li><a href="#courses">Cursos</a></li>
+			<li><a href="#about">Sobre mí</a></li>
+			<li><a href="#contact">Contacto</a></li>
+		</ul>
+	</div>
+</nav>
+
+<header id="home" class="hero">
+	<div class="hero-grid" aria-hidden="true"></div>
+	<div class="hero-inner">
+		<p class="eyebrow mono reveal">Portafolio profesional</p>
+		<h1 class="hero-title reveal">Jesús Salvador<br>Castillo Javier</h1>
+		<p class="hero-role mono reveal"><span id="roleText"></span><span class="cursor" aria-hidden="true">|</span></p>
+		<p class="hero-text reveal">Mtro. Ing. en Sistemas Computacionales. Más de 9 años formando desarrolladores y construyendo software web y móvil.</p>
+		<a href="#journey" class="hero-scroll reveal" aria-label="Ir a la sección de trayectoria">
+			<span class="hero-scroll-arrow"></span>
+		</a>
+	</div>
+</header>
+
+<section id="journey" class="timeline-section">
 	<div class="container">
-		<div class="row">
-            <div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1>Universidad 2013 - 2017</h1>
-					<p>Curse la carrera de Ingenieria en Sistemas Computacionales en la generación 2013 - 2017.</p>
-					<p>Es en este punto donde tengo la oportunidad de trabajar con pequeños proyectos, en especial aplicaciones Web y Moviles</p>
-				</div>
-			</div><!-- End col-md-6 -->
-			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="images/p-8.jpg">
-			</div><!-- End col-md-6 -->
+		<div class="section-head reveal">
+			<p class="eyebrow mono">01 — Trayectoria</p>
+			<h2>Una carrera construida paso a paso</h2>
+		</div>
 
-			<div class="clearfix"></div><!-- End clearfix -->
+		<div class="timeline">
+			<div class="timeline-line" aria-hidden="true"></div>
+			<div class="timeline-line-progress" id="timelineProgress" aria-hidden="true"></div>
 
-			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="images/Mtro.jpg">
-			</div><!-- End col-md-6 -->
-			<div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1>Maestría 2019 - 2021</h1>
-					<p>Curse la Maestría en Ciencias de la Computación en la generación 2019 - 2021.</p>
-					<p>Es aquí donde tengo la oportunidad de expandir mis conocimientos, llevandolos a otro nivel, trabajando con proyectos enfocados en el hambito laboral.</p>
+			<article class="timeline-item reveal">
+				<div class="timeline-marker"><span class="timeline-dot"></span></div>
+				<div class="timeline-card">
+					<p class="timeline-date mono">2013 — 2017</p>
+					<h3>Universidad</h3>
+					<p>Ingeniería en Sistemas Computacionales, generación 2013–2017. El punto de partida: mis primeros proyectos, sobre todo aplicaciones web y móviles.</p>
+					<img src="images/p-8.jpg" alt="Jesús durante su etapa universitaria en la biblioteca de la facultad" loading="lazy">
 				</div>
-			</div><!-- End col-md-6 -->
-            <div class="clearfix"></div><!-- End clearfix -->
-			<div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1>Docente - UBAM</h1>
-					<p>Me he desempeñado como docente en la Universidad Bancaria de México por más de 9 años, impartiendo clases de Programación estructurada, Programación Orientada a Objetos, base de datos relacionales, Electrónica básica y Matemáticas.</p>
-				</div>
-			</div><!-- End col-md-6 -->
-			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="images/p-7.jpg">
-			</div><!-- End col-md-6 -->
+			</article>
 
-			<div class="clearfix"></div><!-- End clearfix -->
+			<article class="timeline-item reveal">
+				<div class="timeline-marker"><span class="timeline-dot"></span></div>
+				<div class="timeline-card">
+					<p class="timeline-date mono">2019 — 2021</p>
+					<h3>Maestría</h3>
+					<p>Maestría en Ciencias de la Computación, generación 2019–2021. El momento de expandir mis conocimientos y llevarlos a proyectos enfocados en el ámbito laboral.</p>
+					<img src="images/Mtro.jpg" alt="Jesús en la ceremonia de posgrado de la Universidad Bancaria de México" loading="lazy">
+				</div>
+			</article>
 
-			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="images/1.png">
-			</div><!-- End col-md-6 -->
-			<div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1>Sistemas - UBAM</h1>
-					<p>Despues de 5 años como docente, comence a desempeñarme como desarrollador en el departamento de sistemas, expandiendo mis conocimientos con nuevas tecnologías.</p>
+			<article class="timeline-item reveal">
+				<div class="timeline-marker"><span class="timeline-dot"></span></div>
+				<div class="timeline-card">
+					<p class="timeline-date mono">9+ años</p>
+					<h3>Docente — UBAM</h3>
+					<p>Docente en la Universidad Bancaria de México por más de 9 años, impartiendo Programación Estructurada, Programación Orientada a Objetos, Bases de Datos Relacionales, Electrónica Básica y Matemáticas.</p>
+					<img src="images/p-7.jpg" alt="Campus de la Universidad Bancaria de México" loading="lazy">
 				</div>
-			</div><!-- End col-md-6 -->
-			 <div class="clearfix"></div><!-- End clearfix -->
-			<div class="col-md-6 col-sm-6">
-				<div class="feature-box">
-					<h1>CipactliSoft</h1>
-					<p>Desarrollador y diseñador del sitio web oficial de <b>CipactliSoft <a href="https://www.cipactlisoft.com" target="_blank" >(https://www.cipactlisoft.com)</a></b>, proyecto que he mantenido y optimizado durante los últimos dos años. Mi trabajo ha incluido la implementación de funcionalidades clave, diseño responsive y mejora continua de la experiencia de usuario.</p>
+			</article>
+
+			<article class="timeline-item reveal">
+				<div class="timeline-marker"><span class="timeline-dot"></span></div>
+				<div class="timeline-card">
+					<p class="timeline-date mono">+5 años</p>
+					<h3>Sistemas — UBAM</h3>
+					<p>Después de 5 años como docente, dí el salto a desarrollador en el departamento de sistemas, expandiendo mis conocimientos con nuevas tecnologías.</p>
+					<img src="images/1.png" alt="Desarrollo de software en escritorio de trabajo" loading="lazy">
 				</div>
-			</div><!-- End col-md-6 -->
-			<div class="col-md-6 col-sm-6 nopadding">
-				<img src="images/logo_vertical.png">
-			</div><!-- End col-md-6 -->
+			</article>
+
+			<article class="timeline-item reveal">
+				<div class="timeline-marker"><span class="timeline-dot"></span></div>
+				<div class="timeline-card">
+					<p class="timeline-date mono">2 años</p>
+					<h3>CipactliSoft</h3>
+					<p>Desarrollador y diseñador del sitio web oficial de <strong>CipactliSoft</strong>, proyecto que he mantenido y optimizado durante los últimos dos años: funcionalidades clave, diseño responsive y mejora continua de la experiencia de usuario.</p>
+					<img src="images/logo_vertical.png" alt="Logotipo de CipactliSoft" loading="lazy" class="logo-img">
+					<a href="https://www.cipactlisoft.com" target="_blank" rel="noopener" class="card-link">Ver el sitio →</a>
+				</div>
+			</article>
 		</div>
 	</div>
 </section>
 
-<section class="portfolio">
+<section id="courses" class="courses-section">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h2 class="heading">Cursos y diplomados </h2>
-			</div><!-- End col-md-12 -->
-			<div class="row">
-			<div class="col-md-4 col-sm-4">
-				<div class="image-container">
-					<a href="https://platzi.com/p/jesussalvadorcastillo416/" target="_blank" ><img src="images/platzi.png"  class="circular-image"></a>
-				</div>
-			</div><!-- End col-md-4 -->
-			<div class="col-md-4 col-sm-4">
-				<div class="image-container">
-					<a href="https://www.udemy.com/user/jesus-salvador-castillo-javier/" target="_blank" ><img src="images/udemy.png"  class="circular-image"></a>
-				</div>
-			</div><!-- End col-md-4 -->
-			<div class="col-md-4 col-sm-4">
-				<div class="image-container">
-					<a href="https://www.qualitrain.com.mx/" target="_blank" ><img src="images/logoQtxSinFondoMedio.png"   class="circular-image" ></a>
-				</div>
-			</div><!-- End col-md-4 -->
+		<div class="section-head reveal light">
+			<p class="eyebrow mono">02 — Formación continua</p>
+			<h2>Cursos y diplomados</h2>
 		</div>
-		</div><!-- End row -->
-	</div><!-- End container -->
+		<div class="courses-grid reveal">
+			<a href="https://platzi.com/p/jesussalvadorcastillo416/" target="_blank" rel="noopener" class="course-badge">
+				<span class="course-badge-ring"><img src="images/platzi.png" alt="Platzi"></span>
+				<span class="course-badge-label mono">Platzi</span>
+			</a>
+			<a href="https://www.udemy.com/user/jesus-salvador-castillo-javier/" target="_blank" rel="noopener" class="course-badge">
+				<span class="course-badge-ring"><img src="images/udemy.png" alt="Udemy"></span>
+				<span class="course-badge-label mono">Udemy</span>
+			</a>
+			<a href="https://www.qualitrain.com.mx/" target="_blank" rel="noopener" class="course-badge">
+				<span class="course-badge-ring"><img src="images/logoQtxSinFondoMedio.png" alt="Qualitrain"></span>
+				<span class="course-badge-label mono">Qualitrain</span>
+			</a>
+		</div>
+	</div>
 </section>
 
-<!-- Call to Action -->
-<section class="call-top-action text-center">
+<section id="about" class="about-section">
+	<div class="container about-grid">
+		<div class="reveal">
+			<p class="eyebrow mono">03 — Sobre mí</p>
+			<h2>Programación, diseño y un poco de docencia</h2>
+			<p class="about-text">Soy un profesional entusiasta de la programación web y el desarrollo de aplicaciones móviles. Manejo distintos software de diseño y programación, y estoy familiarizado con lenguajes orientados a objetos y gestores de bases de datos relacionales.</p>
+		</div>
+		<div class="reveal skills">
+			<div class="skill-group">
+				<p class="skill-group-title mono">Lenguajes y frameworks</p>
+				<div class="pills">
+					<span class="pill">C#</span>
+					<span class="pill">Java</span>
+					<span class="pill">PHP</span>
+					<span class="pill">.NET MAUI</span>
+					<span class="pill">Xamarin</span>
+					<span class="pill">Android</span>
+				</div>
+			</div>
+			<div class="skill-group">
+				<p class="skill-group-title mono">Bases de datos</p>
+				<div class="pills">
+					<span class="pill">SQLite</span>
+					<span class="pill">MySQL</span>
+					<span class="pill">SQL Server</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer id="contact">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h1>Sobre mí</h1>
-				<p>
-                    Soy un profesional entusiasta por la programación WEB y el desarrollo de aplicaciones móviles, manejo varios software de diseño y programación y estoy familiarizado con lenguajes de Programación Orientado a Objetos C#, Java, PHP, .NET MAUI, Xamarin y Android, al igual que gestores de base de datos SQL como SQLite, MySQL y SQL Server.
-                </p> 
-			</div><!-- End col-md-12 -->
-		</div><!-- End row -->
-	</div><!-- End container -->
-</section>
-
-<!-- Footer -->
-<footer>
-	<ul class="in-line">
-		<!--<li>
-			  <a href="https://platzi.com/p/jesussalvadorcastillo416/">
-			    <img src="images/platzi.png" style=" border-radius: 50%; width: 200px; height: 200px; object-fit: cover;" target="_blank" width="100" height="100" alt="Cursos Platzi">
-			  </a>
-		</li>-->
-		<li><a href="#"><span><i class="fa fa-facebook"></i></span></a></li>
-		<li><a href="https://twitter.com/jesusja86542176" target="_blank"><span><i class="fa fa-twitter"></i></span></a></li>
-		<li><a href="https://www.youtube.com/channel/UCxzaiUbPzcBkucPXSHG9d-Q" target="_blank"><span><i class="fa fa-youtube"></i></span></a></li>
-	</ul>
+		<p class="footer-name">Jesús Salvador Castillo Javier</p>
+		<p class="footer-role mono">Ingeniero en Sistemas · Docente · Desarrollador</p>
+		<ul class="in-line">
+			<li><a href="https://twitter.com/jesusja86542176" target="_blank" rel="noopener" aria-label="Twitter / X"><span><i class="fa fa-twitter"></i></span></a></li>
+			<li><a href="https://www.youtube.com/channel/UCxzaiUbPzcBkucPXSHG9d-Q" target="_blank" rel="noopener" aria-label="YouTube"><span><i class="fa fa-youtube"></i></span></a></li>
+		</ul>
+		<p class="copyright">© <span id="year"></span> Jesús Salvador Castillo Javier</p>
+	</div>
 </footer>
-	
 
-
-
-<!-- Main JS -->
-<script type="text/javascript" src="js/jquery-main.js"></script>
-
-<!-- Bootstrap JS -->
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-
-<!-- Animation JS -->
-<script type="text/javascript" src="js/wow.min.js"></script>
-
-<!-- Custom JS -->
 <script type="text/javascript" src="js/custom.js"></script>
-
-
 </body>
 </html>
